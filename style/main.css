@@ -1,0 +1,47 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.container nav{
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    width: 1350px;
+}
+.container footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;    
+}
+.container > nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 0 100px;
+}
+.container > nav > a:hover{
+    color: yellow;
+    text-decoration: underline;
+}    
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+.container img{
+    background-color: aquamarine;
+    height: 300px;
+    width: 1350px;
+}
+.container article{
+    font-size: 30px;
+    color:red;
+    text-align: center;
+}
+.container article img{
+    height: 300px;
+    width: 1000px;
+}
